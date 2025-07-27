@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'flowbite';
+
+/* global style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* global style */
+
+
+/* Navbar style */
+.active{
+     @apply  p-2 rounded-xl text-black dark:text-white hover:bg-text-dark-color  dark:hover:bg-text-color md:dark:hover:bg-transparent md:hover:bg-transparent
+}
+
+/* Navbar style */
+
+
+
+/* card style */
+.card{
+    cursor: pointer;
+    overflow: hidden;
+}
+.card:hover{
+  box-shadow: rgba(50, 231, 50, 0.86) 8px 8px 13px 5px,rgba(50, 231, 50, 0.86) 0px 4px 5px 0px,rgba(50, 231, 50, 0.86) 0px 1px 10px 0px  ;
+  padding: 10px;
+}
+.button-card{
+  transition: 1s all;
+   transform: translateY(100%);
+   opacity: 0;
+}
+.card:hover .button-card{
+opacity: 1;
+transform: translateY(0%);
+}
+/* #32CD32 */
+.dark .card:hover{
+  box-shadow: rgba(172, 255, 47, 0.848) 8px 8px 13px 5px,rgba(172, 255, 47, 0.848) 0px 4px 5px 0px,rgba(172, 255, 47, 0.848) 0px 1px 10px 0px  ;
+  padding: 10px;
+ 
+}
+
+/* card style */
