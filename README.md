@@ -1,12 +1,17 @@
-# React + Vite
+📝 Project Overview:
+A React application that displays products from the Fake Store API , It supports product searching by title, sorting by price and name, and includes cart management with full CRUD operations.
+The UI is styled using Tailwind CSS for a responsive and modern design
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+🔗 [Live Demo](https://route-task-mu.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tech Stack Used
+-React
+-axios
+-React-Router-Dom
+-React-helmet
+-Lazyloading
+-React-icons
+-tailwind
